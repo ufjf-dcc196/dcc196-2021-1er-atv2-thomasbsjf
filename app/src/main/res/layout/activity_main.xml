@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/nome"
-        android:layout_width="349dp"
+        android:layout_width="0dp"
         android:layout_height="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
@@ -23,7 +23,7 @@
 
     <TextView
         android:id="@+id/titulo"
-        android:layout_width="346dp"
+        android:layout_width="0dp"
         android:layout_height="47dp"
         android:layout_marginTop="16dp"
         android:text="@string/titulo_value"
@@ -34,16 +34,15 @@
         app:layout_constraintTop_toBottomOf="@+id/nome" />
 
     <ScrollView
-        android:layout_width="340dp"
-        android:layout_height="560dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/titulo"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/titulo"
-        app:layout_constraintTop_toBottomOf="@+id/titulo"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/titulo">
 
         <TextView
             android:id="@+id/descricao"
